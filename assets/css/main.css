@@ -1,0 +1,3004 @@
+/* CSS Document */
+
+
+*	{
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+::-moz-selection { /* Code for Firefox */
+	background: transparent;
+}
+
+::selection {
+	background: transparent;
+
+}
+
+
+body	{
+	
+	background: white;
+	font-family: 'source sans pro', 'Helvetica', sans-serif;
+
+
+
+}
+
+
+header {
+	font-size: 1.5vw;
+	position:fixed;
+	width:100%;
+	z-index: 100;
+	height: 7vw;
+	top: 0;
+	transition: top 0.5s ease-in-out;
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+
+/* Startseite Navigation --------------------------------- */
+
+
+
+.c-hamburger {
+	display: none;
+}
+
+.nav-up {
+	top: -7vw; 
+}
+
+.header {
+	padding-top: 0;
+}
+
+.start-navibackground {
+	position: absolute;
+	top: 0;
+	height: 7vw;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 100%;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.70) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.70)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.70) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.70) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.70) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.70) 0%,rgba(0,0,0,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+
+.menu > li:first-child{
+	font-family: 'source serif pro';
+	width: 55%;
+	text-align: right;
+	float: left;
+	display:block;
+	letter-spacing: 1px;
+	font-weight: 600;
+	text-rendering: geometricPrecision; 
+}
+
+.menu > li:nth-child(1) {
+	margin-right: 7vw;
+}
+
+.menu > li {
+	float: left;
+}
+
+.start-navigation{
+	width: 43%;
+	float:left;
+	display:block;
+}
+
+
+.unterliste2 {
+	float:left;
+	font-weight: 300;
+}
+
+.unterliste1 li{
+	float:right;
+	padding-right: 1vw;
+}
+
+.unterliste2 li{
+	float:left;
+	padding-left: 1vw;
+
+}
+
+
+
+
+nav a {
+	text-decoration:none;
+	color: white;
+	padding-left: 3.3vw;
+	font-size: 1.2vw;
+
+}
+
+nav a:hover {
+	opacity: 0.8;
+
+}
+
+ul {
+	list-style: none;
+	padding-left:0;
+	padding-top: 1vw;
+	padding-right: 3.5vw;
+	position: static;	
+}
+
+
+
+/* Start Main --------------------------------- */
+
+
+.uebertitel {
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+	color: white;
+	text-align: center;
+	padding-top: 30%;
+
+}
+
+
+.uebertitel>h1 {
+	font-size: 3vw;
+	font-weight: 400;
+	margin: 0;
+}
+
+.uebertitel>h3 {
+	font-size: 1.5vw;
+	font-weight: 300;
+	margin: 0;
+}
+
+.uebertitel-zoom{
+	-moz-transition:all 0.8s ease-in-out;
+	-webkit-transition:all 0.8s ease-in-out;
+	-o-transition:all 0.8s ease-in-out;
+	-ms-transition:all 0.8s ease-in-out;
+	transition:all 0.8s ease-in-out;
+	transform: scale(1.01);
+}
+
+.bgimage {
+	position: relative;
+	width: 100%;
+	height: 100%;
+
+	-ms-background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	-moz-transition:all 0.8s ease-in-out;
+	-webkit-transition:all 0.8s ease-in-out;
+	-o-transition:all 0.8s ease-in-out;
+	-ms-transition:all 0.8s ease-in-out;
+	transition:all 0.8s ease-in-out;
+
+
+
+	opacity: 1;
+}
+
+.bgimage img {
+	width:100%;
+	height:100%;
+}
+
+.img-zoom{
+	-moz-transform: scale(1.01);
+	-webkit-transform: scale(1.01);
+	-o-transform: scale(1.01);
+	-ms-transform: scale(1.01);
+	transform: scale(1.01);
+	opacity: 0.25;
+}
+
+
+
+.button {
+	letter-spacing: 2px;
+	font-size: 2.5vw;
+	background-color:transparent;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-o-border-radius:3px;
+	-ms-border-radius:3px;
+	border-radius:3px;
+	border:1px solid white;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-weight:200;
+	padding:1.3vw 3.2vw;
+	text-decoration:none;
+}
+
+
+.button-wrapper {
+	position: absolute;
+	top: 38vw;
+	width: 100%;
+	text-align: center;
+}
+
+.mask {
+	position:absolute; 
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	cursor:pointer;
+
+	-moz-transition:all 0.8s ease-in-out;
+	-webkit-transition:all 0.8s ease-in-out;
+	-o-transition:all 0.8s ease-in-out;
+	-ms-transition:all 0.8s ease-in-out;
+	transition:all 0.8s ease-in-out;
+}
+
+.inhalt{
+	background: #000;
+}
+
+.start-effect{
+	/*background-color: rgba(0, 0, 0, 0.75);*/
+	opacity: 1;
+	-moz-transition:all 0.8s ease-in-out;
+	-webkit-transition:all 0.8s ease-in-out;
+	-o-transition:all 0.8s ease-in-out;
+	-ms-transition:all 0.8s ease-in-out; 
+	transition:all 0.8s ease-in-out;
+
+}
+
+
+
+/* Unterseiten Main --------------------------------- */
+
+.abstand-oben {
+	width:100%;
+	height: 7vw	;
+}
+
+.abstand-oben2 {
+	display: none;
+}
+
+.ueberbild {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	-moz-transition:all 0.8s ease-in-out;
+	-webkit-transition:all 0.8s ease-in-out;
+	-o-transition:all 0.8s ease-in-out;
+	-ms-transition:all 0.8s ease-in-out;
+	transition:all 0.8s ease-in-out;
+	opacity: 1;
+}
+
+
+.text {
+	width: 100%;
+	padding: 2vw 10vw 1vw;
+}
+
+.uebertext-titel h1 {
+	padding-bottom: 1vw;
+	width: 100%;
+	font-weight: 400;
+	font-size: 2.6vw;
+	line-height: 2.8vw;
+	color: #9E9E9E;
+}
+
+.uebertext p {
+	width: 100%;
+	padding-bottom: 1vw;
+	text-align: left;
+	font-size: 1.3vw;
+	line-height: 1.6vw;
+	column-count: 2;
+	column-gap: 8vw;
+	column-rule: 0px choose #000000;
+	-moz-column-count: 2;
+	-moz-column-gap: 8vw;
+	-moz-column-rule: 0px choose #000000;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 8vw;
+	-webkit-column-rule: 0px choose #000000;
+	-o-column-count: 2;
+	-o-webkit-column-gap: 8vw;
+	-o-webkit-column-rule: 0px choose #000000;
+	-ms-column-count: 2;
+	-ms-column-gap: 8vw;
+	-ms-column-rule: 0px choose #000000;
+}
+
+.kontakt-text>p {
+	width: 50%;
+	padding-bottom: 1vw;
+	text-align: left;
+	font-size: 1.3vw;
+	line-height: 1.6vw;	
+}
+
+/* Unser-Bauernhof Untermenu --------------------------------- */
+
+.unser-bauernhof-untermenu {
+	min-width: 100%;
+	display:-ms-flex;
+	display:-o-flex;
+	display:-moz-flex;
+	display:-webkit-flex;
+	display:flex;
+	flex-direction: column;
+}
+
+.felx-container-bh-nav {
+	flex-direction: row;
+	display:-ms-flex;
+	display:-o-flex;
+	display:-moz-flex;
+	display:-webkit-flex;
+	display:flex;
+}
+
+.unser-bauernhof-untermenu img {
+	width: 100%;
+	height: 100%;
+	float: left;
+	display:-ms-flex;
+	display:-o-flex;
+	display:-moz-flex;
+	display:-webkit-flex;
+	display:flex;
+}
+
+
+
+/* Über uns Portraits Sektion --------------------------------- */
+
+
+.portraits-container {
+	display:-ms-flex;
+	display:-o-flex;
+	display:-moz-flex;
+	display:-webkit-flex;
+	display:flex;
+	flex-direction: row;
+}
+
+.img-container{
+	display:-ms-flex;
+	display:-o-flex;
+	display:-moz-flex;
+	display:-webkit-flex;
+	display:flex;
+	width:50%;
+}
+
+.img-container img {
+	width: 100%;
+	height: 100%;
+
+}
+
+.angaben-container {
+	display:-ms-flex;
+	display:-o-flex;
+	display:-moz-flex;
+	display:-webkit-flex;
+	display:flex;
+
+	background: #EEEEEE;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	cursor: default;
+	width: 50%;
+}
+
+.angaben-container h2 {
+	transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-webkit-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	font-weight: 400;
+	font-size: 2.4vw;
+	line-height: 2.8vw;
+	color: #9E9E9E;
+	text-align: center;
+
+	top:11vw;
+
+	position:relative; 
+	width: 100%;
+	transition: all 0.8s ease-in-out;
+	-moz-transition: all 0.8s ease-in-out;
+	-webkit-transition: all 0.8s ease-in-out;
+	-o-transition: all 0.8s ease-in-out;
+	-ms-transition: all 0.8s ease-in-out;
+
+	visibility: visible;
+	opacity: 0;
+}
+
+.angaben-container {
+	width: 50%;
+	display:block;
+}
+
+.angaben-container:nth-child(1) {
+/*	padding-top: 9vw;
+	display:block;*/
+}
+
+.angaben-container p {
+	transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-webkit-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+
+	top:9vw;
+
+	word-wrap: break-word;
+	float: left;
+	text-align: center;
+	font-size: 1.1vw;
+	
+	line-height: 0vw;
+
+	position:relative; 
+
+	width: 100%;
+
+	transition: all 0.8s ease-in-out;
+	-moz-transition: all 0.8s ease-in-out;
+	-webkit-transition: all 0.8s ease-in-out;
+	-o-transition: all 0.8s ease-in-out;
+	-ms-transition: all 0.8s ease-in-out;
+	visibility: visible;
+	opacity: 0;
+}
+
+
+
+/* Unsere Tiere Slider Sektion -> grau improvisiert --------------------------------- */
+
+
+
+/* Über uns transitions --------------------------------- */
+
+.portraits-container:hover .zoom {
+	visibility: visible;
+	opacity: 1;
+	-moz-transition:all 0.8s ease-in-out;
+	-webkit-transition:all 0.8s ease-in-out;
+	-o-transition:all 0.8s ease-in-out;
+	-ms-transition:all 0.8s ease-in-out;
+	transition:all 0.8s ease-in-out;
+	-moz-transform: scale(1.03);
+	-webkit-transform: scale(1.03);
+	-o-transform: scale(1.03);
+	-ms-transform: scale(1.0);
+	transform: scale(1.03);
+}
+
+
+
+/* Anfragen -> Events & Hoflaedeli --------------------------------- */
+
+
+.anfragen {
+	padding: 6vw 10vw 8vw;
+	text-align: center;
+}
+
+.anfragen h3 {
+	font-weight: 300;
+}
+
+.anfragen a {
+	color: #9E9E9E;
+	font-weight: 600;
+	font-size: 2.8vw;
+	line-height: 2.8vw;
+	text-decoration: none;
+}
+
+.anfragen a:hover {
+	color: #000000;
+	font-weight: 600;
+	font-size: 2.8vw;
+	line-height: 2.8vw;
+	text-decoration: none;
+}
+
+
+/* Hoflädeli --------------------------------- */
+
+.text h3 {
+	font-size: 2vw;
+	font-weight: 300;	
+}
+
+.grau-container {
+	width:100%;
+	height: 100%;
+	background: #EEEEEE;
+}
+
+.oeffnungszeiten {
+	padding: 5vw 31vw 3vw;
+}
+
+.oeffnungszeiten p {
+	text-align: center;
+	width: 100%;
+	font-size: 1.3vw;
+	line-height: 2vw;
+
+}
+
+/* Kontakt --------------------------------- */
+
+#map-canvas {
+	width: 100%;
+	height: 42.5vw;  /* (bildgrösse/4 *3) */
+
+}
+
+
+.kontakt-submit-info{
+	width: 100%;
+	height: 100%;
+}
+
+
+.grau-container-kontakt {  
+	position: static;
+	padding: 2vw 0vw 3vw; /*wieso??*/
+	width:100%;
+	height: 100%;
+	background: #EEEEEE;
+}
+
+
+.adresse {
+	width: 100%;
+	font-size: 1.3vw;
+	padding-right: 10vw;
+}
+
+
+
+
+/* Form --------------------------------- */
+
+.form-style-6{
+	font-size: 1.3vw;
+	width: 60%;
+	float: left;
+	border-radius: 3px;
+	padding: 0;
+	margin: .2vw 2vw;
+}
+
+.form-style-6{
+	font-size: 1.0vw;
+}
+
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select {
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 1vw;
+	border: 1px solid #ccc;
+	padding: 1vw;
+	color: #555;
+	border-radius: 3px;
+}
+
+
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus{
+	box-shadow: 0 0 0.1vw #4A89FF;
+	padding: 1vw;
+
+}
+
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 1vw;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;    
+	color: #fff;
+
+	/* Rectangle 65: */
+	background: #4A89DC;
+	border: 1px solid rgba(121,125,128,0.30);
+	border-radius: 3px;
+	box-shadow: 0px 1px 5px 0px rgba(171,175,179,0.60), 
+	inset 0px -2px 2px 0px rgba(121,125,128,0.20);
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+	background: #4A89FF;
+}
+
+textarea {
+	height: 10vw;
+}
+
+.antwort {
+	padding: 1vw 1vw ;
+	margin: 0vw 10vw 2vw;
+	width: 43.5%;
+	font-weight: 100;
+	font-size: 1.6vw;
+	line-height: 2vw;
+	color: white;
+	background-color: #4A89DC;
+	border-radius: 3px;
+}
+
+.mail {
+	text-decoration:none;
+	font-weight: 600;
+	color: black;
+}
+
+
+
+/* Zitat --------------------------------- */
+
+.zitat {
+	margin: 4vw 0vw;
+	padding: 2vw 10vw 0.3vw;
+	text-align: center;
+	color: #9E9E9E;
+
+}
+
+.zitat h1 {
+	font-weight: 400;
+	font-style: italic;
+	font-size: 2.6vw;
+	line-height: 2.8vw;
+
+}
+
+.zitat h6 {
+	font-weight: 400;
+	font-size: 1.1vw;
+	line-height: 1.3vw;
+	margin-top: 0vw;
+}
+
+
+
+/* Main Navigation --------------------------------- */
+
+.main-navigation {
+	margin-top: -5px; /* vorübergehend */
+	display:-ms-flex;
+	display:-o-flex;
+	display:-moz-flex;
+	display:-webkit-flex;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+
+	width: 100%;
+	height: 100%;
+
+}
+
+.nav-container {
+	width: 100%;
+	height: 100%;
+
+	display:-ms-flex;
+	display:-o-flex;
+	display:-moz-flex;
+	display:-webkit-flex;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.flex-container1 {
+	width: 100%;
+	height: 100%;
+
+	display:-ms-flex;
+	display:-o-flex;
+	display:-moz-flex;
+	flex-direction: row;
+	display:-webkit-flex;
+	display:flex;
+	flex-direction: row;
+
+}
+
+.flex-container2 {
+	width: 100%;
+	height: 100%;
+
+	display:-ms-flex;
+	display:-o-flex;
+	display:-moz-flex;
+	flex-direction: row;
+	display:-webkit-flex;
+	display:flex;
+	flex-direction: row;
+
+}
+
+.nav-container img {
+	width: 100%;
+	height: 100%;
+	float: left;
+	display:-ms-flex;
+	display:-o-flex;
+	display:-moz-flex;
+	display:-webkit-flex;
+	display:flex;
+
+}
+
+.view {
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	cursor: default;
+	width: 100%;
+
+}
+
+
+
+.effect .mask {
+	position:absolute; /* Center the mask */
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	cursor:pointer;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.75);
+	opacity:1;
+	visibility:visible;
+	-moz-transition:all 0.8s ease-in-out;
+	-webkit-transition:all 0.8s ease-in-out;
+	-o-transition:all 0.8s ease-in-out;
+	-ms-transition:all 0.8s ease-in-out;
+	transition:all 0.8s ease-in-out;
+}
+
+.effect:hover .mask {
+	width: 100%;
+	height: 100%;
+
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.75);
+	visibility:hidden;
+}
+
+.effect img {
+	transition: all 0.8s ease-in-out;
+	-moz-transition: all 0.8s ease-in-out;
+	-webkit-transition: all 0.8s ease-in-out;
+	-o-transition: all 0.8s ease-in-out;
+	-ms-transition: all 0.8s ease-in-out;
+
+}
+
+.effect:hover img {
+	transform: scale(1.02);
+	-moz-transform: scale(1.02);
+	-webkit-transform: scale(1.02);
+	-o-transform: scale(1.02);
+	-ms-transform: scale(1.02);
+}
+
+.navigation-title {
+	z-index: 1000;
+	color: white;
+	position:absolute; 
+	width: 100%;
+	margin-top: 33%;
+	font-weight: 400;
+	font-size: 2.5vw;
+	transition: all 0.8s ease-in-out;
+	-moz-transition: all 0.8s ease-in-out;
+	-webkit-transition: all 0.8s ease-in-out;
+	-o-transition: all 0.8s ease-in-out;
+	-ms-transition: all 0.8s ease-in-out;
+}
+
+.effect:hover .navigation-title {
+	transform: scale(0.98);
+	-moz-transform: scale(0.98);
+	-webkit-transform: scale(0.98);
+	-o-transform: scale(0.98);
+	-ms-transform: scale(0.98);
+}
+
+
+
+
+/* effect unser bauernhof nav --------------------------------- */
+
+.grid {
+	position: relative;
+	clear: both;
+	margin: 0 auto;
+	padding: 1em 0 4em;
+	width: 100%;
+	height: 37.5vw;
+	list-style: none;
+	text-align: center;
+}
+
+/* Common style */
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 0em 0em;
+	width: 100%;
+	height: 100%;
+	width: 50%;
+	height: auto;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	height: 100%;
+	width: 100%;
+	opacity: 0.8;
+}
+
+.grid figure figcaption {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	color: #fff;
+	font-size: 1.8vw;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+.grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h2 {
+	padding-top: 5vw;
+	word-spacing: 0.15vw;
+	font-weight: 500;
+	font-size: 2.5vw;
+}
+
+
+
+.grid figure h2,
+.grid figure p {
+	margin: 0;
+}
+
+.grid figure p {
+	letter-spacing: 1px;
+	font-size: 78.5%;
+}
+
+
+
+/* Effenct ---------------*/
+
+figure.effect-ming {
+	background: #030c17;
+}
+
+figure.effect-ming img {
+	width: 100%;
+	height: 100%;
+	opacity: 0.95;
+	-webkit-transition: opacity 0.8s;
+	transition: opacity 0.8s;
+}
+
+figure.effect-ming figcaption::before {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	content: '';	
+	opacity: 0;
+	-webkit-transition: opacity 0.8s, -webkit-transform 0.8s;
+	transition: opacity 0.8s, transform 0.8s;
+	-webkit-transform: scale3d(1.4,1.4,1);
+	transform: scale3d(1.4,1.4,1);
+}
+
+figure.effect-ming h2 {
+	margin: 20% 0 10px 0;
+	-webkit-transition: -webkit-transform 0.8s;
+	transition: transform 0.8s;
+}
+
+figure.effect-ming p {
+	padding: 1em;
+	opacity: 0;
+	-webkit-transition: opacity 0.8ss, -webkit-transform 0.8s;
+	transition: opacity 0.8s, transform 0.8s;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+figure.effect-ming:hover h2 {
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+figure.effect-ming:hover figcaption::before,
+figure.effect-ming:hover p {
+	opacity: 1;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+
+figure.effect-ming:hover figcaption {
+	background-color: rgba(58,52,42,0);
+}
+
+figure.effect-ming:hover img {
+	opacity: 0.4;
+}
+
+.mehr {
+	visibility: hidden;
+}
+
+/*---------------------------------------------------------
+--------------------- Slider ------------------------------
+----------------------------------------------------------*/
+
+
+
+.tiere-container {
+
+}
+
+.slider-container {
+	width: 100%;
+	height: 100%;
+	display:-ms-flex;
+	display:-o-flex;
+	display:-moz-flex;
+	display:-webkit-flex;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+
+}
+
+
+.site-slider {
+	display: none;
+
+/*	visibility: hidden;*/
+}
+
+
+.is-active {
+	display: block;
+
+/*	visibility: visible;*/
+}
+
+
+.slider {
+    padding: 0 0vw 0 10vw;
+    width: 90%;
+}
+
+.active {
+	display: block;
+}
+
+
+.tiere-ueberflex {
+	width: 80%;
+	margin: 0 10vw ;
+}
+
+
+
+.thumb img {
+
+	position: relative;
+	text-align: center;
+	cursor: default;
+
+
+}
+
+.thumb {
+
+	position: relative;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	border-left: 1px solid rgba(150, 150, 150, 0.2);
+}
+
+
+/* thumb-events */
+
+.thumb-events img {
+
+	position: relative;
+	text-align: center;
+	cursor: default;
+
+}
+
+.thumb-events {
+	position: relative;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	border-left: 1px solid rgba(150, 150, 150, 0.2);
+}
+
+.events-container {
+	margin-bottom: 0;
+}
+
+.events-ueberflex {
+	width: 80%;
+	margin: 0 10vw ;
+}
+
+.events-flex {
+
+}
+
+.slider-titel-events {
+	top:30%;
+	font-size: 1.5vw;
+	display: block;
+	margin: 0vw;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	padding-top: 1.5vw;
+	padding-bottom: auto;
+	text-align: center;
+	color: white;
+	font-weight: 200;
+
+	transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+}
+
+
+/* thumb-events end */
+
+
+.mask2:hover {
+	opacity: 0;
+}
+
+
+
+.slider-titel {
+	display: block;
+
+		top:30%;
+		font-size: 1.5vw;
+		font-weight: 100;
+
+	margin: 0vw;
+
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	padding-top: 1.5vw;
+	padding-bottom: auto;
+	text-align: center;
+	color: white;
+	font-weight: 200;
+
+
+	transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+}
+
+
+
+
+.effect2 .mask2 {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	cursor:pointer;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.55);
+	opacity:1;
+	visibility:visible;
+	-moz-transition:all 0.4s ease-in-out;
+	-webkit-transition:all 0.4s ease-in-out;
+	-o-transition:all 0.4s ease-in-out;
+	-ms-transition:all 0.4s ease-in-out;
+	transition:all 0.4s ease-in-out;
+}
+
+.effect2:hover .mask2 {
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.55);
+	visibility:hidden;
+}
+
+
+
+.effect2:hover .slider-title {
+	transform: scale(0.98);
+	-moz-transform: scale(0.98);
+	-webkit-transform: scale(0.98);
+	-o-transform: scale(0.98);
+	-ms-transform: scale(0.98);
+}
+
+
+.slider-beschreibung h1 {
+	padding-left: 10vw;
+	padding-bottom: 1vw;
+	width: 100%;
+	font-weight: 400;
+	font-size: 2.6vw;
+	line-height: 2.8vw;
+	color: #9E9E9E;
+}
+
+
+/*---------------------------------------------------------
+--------------------- Media Queries -----------------------
+----------------------------------------------------------*/
+
+/* Desktop 1900 ----------- */
+@media only screen and (min-width: 1900px)  {
+
+	/*navigation*/
+
+	nav a {
+		padding-left: 3.7vw;
+		margin-right: 0vw;
+		font-size: .9vw;
+	}
+
+
+	.unterliste2 {
+		margin-left: 5.5vw;
+	}
+
+
+	.button {
+		font-size: 1.7vw;
+		font-weight:200;
+		padding:1vw 2.5vw;
+}
+
+ 	/*main navigation*/
+
+	.navigation-title {
+		font-weight: 300;
+		font-size: 2.1vw;
+	}
+
+
+	/*unterseiten main*/
+
+	.text {
+		padding: 1.1vw 10vw 0vw;
+	}
+
+	.uebertext-titel h1 {
+		padding-bottom: .6vw;
+		width: 100%;
+		font-weight: 400;
+		font-size: 1.4vw;
+		line-height: 1.6vw;
+		color: #9E9E9E;
+	}
+
+	.uebertext p {
+		padding-bottom: 1vw;
+		font-size: .9vw;
+		line-height: 1.2vw;
+	}
+
+	.kontakt-text>p {
+		padding-bottom: 1vw;
+		font-size: .9vw;
+		line-height: 1.2vw;
+	}
+
+
+	/*untermenu unser bauernhof*/
+
+	.grid figure figcaption {
+
+		font-size: 1.3vw;
+		font-weight: 300;
+	}
+
+	.grid figure h2 {
+		padding-top: 5.3vw;
+		font-weight: 400;
+		font-size: 1.9vw;
+	}
+
+
+	/*zitat*/
+	.zitat h1 {
+		font-weight: 100;
+		font-size: 2.0vw;
+		line-height: 2.0vw;
+	}
+
+	.zitat h6 {
+		font-weight: 200;
+		font-size: 1.0vw;
+		line-height: 1.3vw;
+	}
+
+
+	/*slider*/
+	.slider-beschreibung h1 {
+		font-size: 2vw;
+		font-weight: 200;
+	}
+
+	.slider-titel {
+		top:45%;
+		font-size: 1.5vw;
+		font-weight: 100;
+	}
+
+	.slider-titel-events {
+		top:45%;
+		font-size: 1.5vw;
+		font-weight: 100;
+	}
+
+	.thumb-events h3 {
+		font-size: 1.3vw;
+	}
+
+	/*über uns*/
+	.angaben-container p {
+		font-size: 0.9vw;
+		top: 10.5vw; 
+
+	}
+
+	.angaben-container h2 {
+		font-weight: 400;
+		font-size: 1.6vw;
+		line-height: 2.8vw;
+		top: 11.5vw; 
+	}
+
+
+	/*anfrage -> kontakt laedeli*/
+	.anfragen a {
+		font-weight: 400;
+		font-size: 2.0vw;
+		line-height: 2.0vw;
+	}
+
+	.anfragen a:hover {
+		font-weight: 400;
+		font-size: 2.0vw;
+		line-height: 2.0vw;
+	}
+
+	/*laedeli*/
+	.oeffnungszeiten p {
+		font-size: 1vw;
+		line-height: 1.8vw;
+		margin-top: 0vw;
+		margin-bottom: 3vw;
+	}
+
+	/*kontakt*/
+	.form-style-6{
+		font-size: 1.0vw;
+		padding: 0;
+		margin: .2vw 2vw;
+	}
+
+	.form-style-6 input[type="text"],
+	.form-style-6 input[type="date"],
+	.form-style-6 input[type="datetime"],
+	.form-style-6 input[type="email"],
+	.form-style-6 input[type="number"],
+	.form-style-6 input[type="search"],
+	.form-style-6 input[type="time"],
+	.form-style-6 input[type="url"],
+	.form-style-6 textarea,
+	.form-style-6 select {
+		margin-bottom: .7vw;
+		padding: .7vw;
+	}
+
+	.form-style-6 input[type="text"]:focus,
+	.form-style-6 input[type="date"]:focus,
+	.form-style-6 input[type="datetime"]:focus,
+	.form-style-6 input[type="email"]:focus,
+	.form-style-6 input[type="number"]:focus,
+	.form-style-6 input[type="search"]:focus,
+	.form-style-6 input[type="time"]:focus,
+	.form-style-6 input[type="url"]:focus,
+	.form-style-6 textarea:focus,
+	.form-style-6 select:focus{
+		padding: .7vw;
+	}
+
+	.form-style-6 input[type="submit"],
+	.form-style-6 input[type="button"]{
+		padding: .7vw;
+	}
+
+	.grau-container-kontakt {
+		height: 25vw;
+	}
+
+	.adresse {
+		margin-top: 3vw;
+		width: 100%;
+		font-size: 1vw;
+		padding-right: 4vw;
+	}
+}
+
+
+
+
+/* iPhone 6 ----------- */
+@media only screen and (max-device-width: 667px)  {
+
+
+	/* header menu --------------------------------- */
+
+	.wrapper {
+		width: 100%;
+	}
+
+
+	header {
+		z-index: 5000;
+		top:-10px;
+		height: 19vw !important;
+
+		-webkit-transition: top 0.5s ease-in-out;
+		transition: top 0.5s ease-in-out;
+	}
+
+	.nav-up {
+		top: -19vw; 
+	}
+
+
+	#logo{
+		font-family: 'source serif pro';
+
+		margin-left: 46%;
+
+		display:block;
+		letter-spacing: 2px;
+		font-weight: 200;
+	}
+
+
+
+
+
+
+
+	.unterliste2{
+
+
+
+		clear: both;
+
+		font-weight: 600;
+
+		opacity: 0;
+		
+		background: rgba(30,30,30,0.85);
+		
+		padding-top:50%;
+
+		width:100% !important;
+		height: 100% !important;
+
+		list-style: none;
+		position: fixed;
+
+		text-align: center;	
+
+		-webkit-transition:all 0.8s ease-in-out;
+		transition:all 0.8s ease-in-out;
+	}
+
+
+	.unterliste2 li {
+		text-align: center !important;
+		width: 100% !important;
+		margin: 2vw 0;
+		padding: auto 0;
+	}
+
+	.unterliste1	{
+		padding-top: 3vw;
+		z-index: 100;
+
+	}
+
+	.unterliste2 {
+		display: none;
+	}
+
+
+	nav a {
+		clear: both;
+		width: 100%;
+		text-decoration:none;
+		color: white;
+		font-size: 6vw;
+	}
+
+
+
+	nav a:hover {
+		opacity: 0.8;
+		filter: alpha(opacity=80);
+
+	}
+
+	ul {
+		list-style: none;
+		position: fixed;
+		width:25%;
+	}
+
+
+	.uebertitel {
+		display:none;
+	}
+
+
+	.abstand-oben2 {
+		width:100%;
+		height: 102vw;
+		display: block;
+	}
+
+
+.strange .abstand-oben {
+	display: none;
+}
+
+	/* hamburger menu --------------------------------- */
+
+
+
+	.c-hamburger {
+		clear: both;
+		right: 6vw;
+		float: right;
+		display: block;
+		position: fixed;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		width: 13%;
+		height: 10%;
+		font-size: 0;
+		text-indent: -9999px;
+		appearance: none;
+		box-shadow: none;
+		border-radius: none;
+		border: none;
+		cursor: pointer;
+		transition: background 0.3s;
+		background-color: transparent !important;
+	}
+
+	.c-hamburger:focus {
+		outline: none;
+	}
+
+
+
+
+	.c-hamburger span {
+		display: block;
+		position: absolute;
+		top: 8vw;
+
+		width: 100%;
+		height: 0.7vw;
+		background: white;
+		-moz-border-radius:5px; /* Firefox */
+		-webkit-border-radius:5px; /* Chrome, Safari */
+		-khtml-border-radius:5px; /* Konqueror */
+		border-radius:5px; /
+	}
+
+	.c-hamburger span::before,
+	.c-hamburger span::after {
+		position: absolute;
+		display: block;
+		left: 0;
+		width: 100%;
+		height: 0.7vw;
+		background-color: #fff;
+		content: "";
+		-moz-border-radius:5px; /* Firefox */
+		-webkit-border-radius:5px; /* Chrome, Safari */
+		-khtml-border-radius:5px; /* Konqueror */
+		border-radius:5px; /
+	}
+
+	.c-hamburger span::before {
+		top: -2vw;
+	}
+
+	.c-hamburger span::after {
+		bottom: -2vw;
+	}
+
+
+
+
+
+
+
+	.c-hamburger--htx {
+		background-color: none;
+
+	}
+
+	.c-hamburger--htx span {
+		transition: background 0s 0.3s;
+	}
+
+	.c-hamburger--htx span::before,
+	.c-hamburger--htx span::after {
+		transition-duration: 0.3s, 0.3s;
+		transition-delay: 0.3s, 0s;
+	}
+
+	.c-hamburger--htx span::before {
+		transition-property: top, transform;
+	}
+
+	.c-hamburger--htx span::after {
+		transition-property: bottom, transform;
+	}
+
+	/* active state, i.e. menu open */
+	.c-hamburger--htx.is-active {
+		background-color: none;
+	}
+
+	.c-hamburger--htx.is-active span {
+		background: none;
+	}
+
+	.c-hamburger--htx.is-active span::before {
+		top: 0;
+		-webkit-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+
+	.c-hamburger--htx.is-active span::after {
+		bottom: 0;
+		-webkit-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+	}
+
+	.c-hamburger--htx.is-active span::before,
+	.c-hamburger--htx.is-active span::after {
+		transition-delay: 0s, 0.3s;
+	}
+
+	/* start main --------------------------------- */
+
+	.inhalt {
+		height: 200vw;
+	}
+
+
+
+	.button {
+		display: none;
+	}
+
+	.button-wrapper {
+		display: none;
+	}
+
+	.main-navigation{
+		display: none; 	
+	}
+
+
+
+	.bgimage {
+		overflow:hidden;
+		height: 100%;
+		width: 100%;
+
+	}
+
+	.bgimage img {
+
+		object-fit: cover;
+	}
+
+
+	.uebertitel h1 {
+
+
+	}
+
+	/* Unterseiten Main --------------------------------- */
+
+	.inhalt-unterseiten{
+		width: 100%;
+	}
+
+	.text {
+		padding: 1vw 1vw;
+	}
+
+	.uebertext-titel h1 {
+		padding: 3vw 1vw;	
+		padding-bottom: 1vw;
+
+		font-weight: 600;
+		font-size: 6.5vw;
+		line-height: 2.8vw;
+		color: #9E9E9E;
+	}
+
+	.uebertext p {
+		width: 100%;
+		padding: 1vw 1vw;
+		text-align: left;
+		font-size: 6vw;
+		line-height: 7vw;
+		font-weight: 300;
+		column-count: 1;
+		column-rule: 0px choose #000000;
+		-moz-column-count: 1;
+		-moz-column-rule: 0px choose #000000;
+		-webkit-column-count: 1;
+		-webkit-column-rule: 0px choose #000000;
+		-o-column-count: 1;
+		-o-webkit-column-rule: 0px choose #000000;
+		-ms-column-count: 1;
+		-ms-column-rule: 0px choose #000000;
+	}
+
+	.kontakt-text>p {
+		width: 50%;
+		padding-bottom: 1vw;
+		text-align: left;
+		font-size: 1.3vw;
+		line-height: 1.6vw;	
+	}
+
+	/* Unser-Bauernhof Untermenu --------------------------------- */
+
+	.grid figure {
+		padding: 0;
+		width: 100%;
+		padding-bottom: 0vw;
+
+	}
+
+
+	.grid figure h2 {
+		padding-top: 20vw;
+		word-spacing: 0.15vw;
+		font-weight: 600;
+		font-size: 9.5vw;
+
+	}
+
+
+
+	.grid figure h2,
+	.grid figure p {
+		margin: 0;
+	}
+
+	.grid figure .mehr {
+		opacity: 1;
+		letter-spacing: 2px;
+		font-size: 4.5vw;
+		visibility: visible;
+		font-weight: 300;
+	}
+
+	figure.effect-ming img {
+		opacity: 0.6;
+	}
+
+
+	.grau-container {
+		background-color: transparent;
+	}
+
+
+	.beschriftung {
+		display: none;
+	}
+
+	/* Zitat --------------------------------- */
+
+	.zitat {
+		text-align: center;
+		color: #9E9E9E;
+		padding: 1vw;
+		margin-top: 4vw;
+	}
+
+	.zitat h1 {
+		font-weight: 400;
+		font-style: italic;
+		font-size: 7vw;
+		line-height: 7vw;
+
+
+	}
+
+	.zitat h6 {
+		font-weight: 400;
+		font-size: 4vw;
+		line-height: 1.3vw;
+		margin-top: 0vw;
+		padding-top: 1vw;
+	}
+
+
+	/* Über uns Portraits Sektion --------------------------------- */
+
+	.abstand-oben {
+		height: 18vw;
+		width: 100%;
+	}
+
+	.abstand-oben2 {
+		width:100%;
+		height: 105vw;
+		display: block;
+	}
+
+	.portraits-container {
+	background: #EEEEEE;
+		flex-direction: row;		
+		-webkit-flex-direction: row;
+		margin:1vw 0;	
+	}
+
+	.img-container img{
+		margin-top: 7.5vw;
+
+		flex-direction: row;		
+		-webkit-flex-direction: row;	
+		display: block;
+
+		width: 100%;
+	}
+
+	.angaben-container {
+		flex-direction: row;		
+		-webkit-flex-direction: row;	
+		display: block;
+		margin-top: 4px;
+		width: 50%;
+		height: 50vw;
+		background: #EEEEEE;
+	}
+
+	.angaben-container h2 {
+		font-weight: 600;
+		font-size: 7vw;
+		position:relative; 
+		margin-top: 6%;
+		opacity: 1;
+	}
+
+	.angaben-container p {
+
+		display: block;
+		clear: both;
+		font-size: 5vw;
+		line-height: 0px;
+		position:relative; 
+		margin-top: 1vw;
+		opacity: 1;
+	}
+
+	/* Hoflädeli --------------------------------- */
+
+	.text h3 {
+		padding-top: 7vw; 
+		font-size: 7vw;
+	}
+
+
+	.oeffnungszeiten {
+		padding: 1vw 1vw 3vw;
+	}
+
+	.oeffnungszeiten p {
+		text-align: left;
+		font-size: 6vw;
+		line-height: 9vw;
+
+	}
+
+
+	/* Anfragen -> Events & Hoflaedeli --------------------------------- */
+
+
+	.anfragen {
+		padding: 1vw 1vw 3vw;
+		text-align: center;
+	}
+
+	.anfragen h3 {
+		padding: 3vw 0;
+		font-size: 5.5vw;
+		text-decoration: none;
+	}
+
+	.anfragen a {
+		padding-bottom: 4vw;
+		font-size: 10vw;
+		text-decoration: none;
+	}
+
+	/* Kontakt --------------------------------- */
+
+	.kontakt-submit-info{
+		width: 100%;
+		height: 100%;
+	}
+
+
+
+	.grau-container-kontakt {  
+		position: static;
+		padding: 2vw 0vw 5vw; /*wieso??*/
+		width:100%;
+		height: 100%;
+		background: #EEEEEE;
+	}
+
+
+	.adresse {
+		text-align: left;
+		width: 100%;
+		font-size: 6vw;
+		padding: 0vw 4vw 4vw; /*wieso??*/
+		font-weight: 300;
+
+	}
+
+	.kontakt-text p {
+		width: 100%;
+		padding: 1vw 1vw;
+		text-align: left;
+		font-size: 6vw;
+		line-height: 7vw;
+		font-weight: 300;
+		list-style: none;
+		text-decoration:none;
+
+	}
+
+	/* Form --------------------------------- */
+
+	.antwort {
+		display: none;
+	}
+
+	.form-style-6{		/*noch unklar ob es hier wirklich eine form braucht*/
+		font-size: 6vw;
+		line-height: 7vw;
+		width: 100%;
+		padding: 3vw 4vw 3vw 4vw;
+
+
+		display: none;
+
+
+
+	}
+
+	.form-style-6 input[type="text"],
+	.form-style-6 input[type="date"],
+	.form-style-6 input[type="datetime"],
+	.form-style-6 input[type="email"],
+	.form-style-6 input[type="number"],
+	.form-style-6 input[type="search"],
+	.form-style-6 input[type="time"],
+	.form-style-6 input[type="url"],
+	.form-style-6 textarea,
+	.form-style-6 select {
+		margin-bottom: 2vw;
+		padding: 6vw;
+		position: relative;
+	}
+
+
+
+
+	.form-style-6 input[type="submit"],
+	.form-style-6 input[type="button"]{
+		padding: 6vw;
+		position: relative;
+
+	}
+
+	textarea {
+		height: 40vw;
+	}
+
+
+	/*--------- slider --------------- */
+
+	.slider-container {
+		position: relative;
+		display:-ms-flex;
+		display:-o-flex;
+		display:-moz-flex;
+		display:-webkit-flex;
+		display:-webkit-box;
+		display:-ms-flexbox;
+		display:flex;
+		margin: 8vw 0vw;
+
+
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		        flex-direction: column;
+	}
+
+	.tiere-container {
+		position: relative;
+		margin-top:0;
+		display:-ms-flex;
+		display:-o-flex;
+		display:-moz-flex;
+		display:-webkit-flex;
+		display:-webkit-box;
+		display:-ms-flexbox;
+		display:flex;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		        flex-direction: column;
+	}
+
+	.tiere-ueberflex {
+		position: static;
+		/*	padding: 0 10vw ;*/
+		width: 100%;
+		margin: 0 0vw ;
+		display: felx;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+	}
+
+
+
+	.thumb {
+		width: 100%;
+	}
+
+	.events-ueberflex {
+		position: static;
+		/*	padding: 0 10vw ;*/
+		width: 100%;
+		margin: 0 0vw ;
+		display: felx;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+	}
+
+	.thumb-events {
+		width: 100%;
+	}
+
+	.slider-titel-events {
+		top:30%;
+		text-align: center;
+		font-size: 4.5vw;
+		position: absolute;
+		display: block;
+		color: white;
+		padding: 1vw;
+		padding-left: 1vw;
+		margin: 0vw;
+		font-weight: 400;
+		line-height: 40px;
+	}
+
+.effect2:hover .mask2 {
+
+	opacity: 1;
+
+	visibility:visible;
+}
+
+
+	.slider-titel {
+		top:25%;
+		font-size: 6vw;
+		font-weight: 400;
+		position: absolute;
+		display: block;
+		color: white;
+		padding: 1vw;
+		margin: 0vw;
+
+		font-weight: 100;
+		border-bottom: 1px solid white;
+		border-left: 1px solid white;
+	}
+
+
+
+	.slider {
+		margin: 0 auto;
+		padding: 0 0vw;
+		width: 100%;
+		display:-ms-flex;
+		position: relative;
+	}
+
+
+
+
+
+
+
+
+	.aussendiv .abstand-oben {
+		display: none;
+	}
+
+.slider-beschreibung h1 {
+	padding-left: 3vw;
+	padding-bottom: 1vw;
+	width: 100%;
+	font-weight: 400;
+	font-size: 6vw;
+	line-height: 2.8vw;
+	color: #9E9E9E;
+}
+
+
+}
+
+
+
+
+
+/* Desktop ----------- */
+@media only screen and (max-width: 667px)  {
+
+
+
+	/* header menu --------------------------------- */
+
+	.wrapper {
+		width: 100%;
+	}
+
+
+	header {
+		z-index: 5000;
+		top:-10px;
+		height: 15vw !important;
+
+		-webkit-transition: top 0.5s ease-in-out;
+		transition: top 0.5s ease-in-out;
+	}
+
+	.nav-up {
+		top: -15vw; 
+	}
+
+
+	#logo{
+		font-family: 'source serif pro';
+
+		margin-left: 40%;
+
+		display:block;
+		letter-spacing: 2px;
+		font-weight: 200;
+	}
+
+
+
+.strange .abstand-oben {
+	display: none;
+}
+
+
+
+	.unterliste2{
+		clear: both;
+		font-weight: 600;
+		opacity: 0;
+		background: rgba(30,30,30,0.85);
+		padding-top:50%;
+		width:100% !important;
+		height: 100% !important;
+		list-style: none;
+		position: fixed;
+		text-align: center;	
+		-webkit-transition:all 0.8s ease-in-out;
+		transition:all 0.8s ease-in-out;
+	}
+
+
+	.unterliste2 li {
+		text-align: center !important;
+		width: 100% !important;
+		margin: 2vw 0;
+		padding: auto 0;
+	}
+
+	.unterliste2 {
+		display: none;
+	}
+
+
+
+	.unterliste1	{
+		padding-top: 3vw;
+		z-index: 100;
+	}
+
+
+
+	nav a {
+		clear: both;
+		width: 100%;
+		text-decoration:none;
+		color: white;
+		font-size: 3.5vw;
+	}
+
+
+
+	nav a:hover {
+		opacity: 0.8;
+		filter: alpha(opacity=80);
+
+	}
+
+	ul {
+		list-style: none;
+		position: fixed;
+		width:28%;
+	}
+
+
+	.uebertitel {
+		display:none;
+	}
+
+	.abstand-oben2 {
+		width:100%;
+		height: 102vw;
+		display: block;
+	}
+
+
+	.grau-container {
+		background-color: transparent;
+	}
+
+	/* hamburger menu --------------------------------- */
+
+
+
+	.c-hamburger {
+		clear: both;
+		right: 6vw;
+		float: right;
+		display: block;
+		position: fixed;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		width: 8%;
+		height: 10%;
+		font-size: 0;
+		text-indent: -9999px;
+		appearance: none;
+		box-shadow: none;
+		border-radius: none;
+		border: none;
+		cursor: pointer;
+		transition: background 0.3s;
+		background-color: transparent !important;
+	}
+
+	.c-hamburger:focus {
+		outline: none;
+	}
+
+
+
+
+	.c-hamburger span {
+		display: block;
+		position: absolute;
+		top: 6vw;
+
+		width: 100%;
+		height: 0.4vw;
+		background: white;
+		-moz-border-radius:5px; /* Firefox */
+		-webkit-border-radius:5px; /* Chrome, Safari */
+		-khtml-border-radius:5px; /* Konqueror */
+		border-radius:5px; /
+	}
+
+	.c-hamburger span::before,
+	.c-hamburger span::after {
+		position: absolute;
+		display: block;
+		left: 0;
+		width: 100%;
+		height: 0.4vw;
+		background-color: #fff;
+		content: "";
+		-moz-border-radius:5px; /* Firefox */
+		-webkit-border-radius:5px; /* Chrome, Safari */
+		-khtml-border-radius:5px; /* Konqueror */
+		border-radius:5px; /
+	}
+
+	.c-hamburger span::before {
+		top: -1vw;
+	}
+
+	.c-hamburger span::after {
+		bottom: -1vw;
+	}
+
+
+
+
+
+
+
+	.c-hamburger--htx {
+		background-color: none;
+
+	}
+
+	.c-hamburger--htx span {
+		transition: background 0s 0.3s;
+	}
+
+	.c-hamburger--htx span::before,
+	.c-hamburger--htx span::after {
+		transition-duration: 0.3s, 0.3s;
+		transition-delay: 0.3s, 0s;
+	}
+
+	.c-hamburger--htx span::before {
+		transition-property: top, transform;
+	}
+
+	.c-hamburger--htx span::after {
+		transition-property: bottom, transform;
+	}
+
+	/* active state, i.e. menu open */
+	.c-hamburger--htx.is-active {
+		background-color: none;
+	}
+
+	.c-hamburger--htx.is-active span {
+		background: none;
+	}
+
+	.c-hamburger--htx.is-active span::before {
+		top: 0;
+		-webkit-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+
+	.c-hamburger--htx.is-active span::after {
+		bottom: 0;
+		-webkit-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+	}
+
+	.c-hamburger--htx.is-active span::before,
+	.c-hamburger--htx.is-active span::after {
+		transition-delay: 0s, 0.3s;
+	}
+
+	/* start main --------------------------------- */
+
+	.inhalt {
+		height: 200vw;
+	}
+
+
+
+	.button {
+		display: none;
+	}
+
+	.button-wrapper {
+		display: none;
+	}
+
+	.main-navigation{
+		display: none; 	
+	}
+
+
+
+	.bgimage {
+		overflow:hidden;
+		height: 100%;
+		width: 100%;
+
+	}
+
+	.bgimage img {
+
+		object-fit: cover;
+	}
+
+
+	.uebertitel h1 {
+
+
+	}
+
+	/* Unterseiten Main --------------------------------- */
+
+	.inhalt-unterseiten{
+		width: 100%;
+	}
+
+	.text {
+		width: 100%;
+		padding: 0vw 1vw;
+	}
+
+	.uebertext {
+		margin: 0vw 0vw;
+	}
+
+	.uebertext-titel h1 {
+		padding: 3vw 1vw;	
+		padding-bottom: 1vw;
+
+		font-weight: 600;
+		font-size: 4vw;
+		line-height: 2vw;
+		color: #9E9E9E;
+	}
+
+	.uebertext p {
+		width: 100%;
+		padding: 1vw 1vw;
+		text-align: left;
+		font-size: 3vw;
+		line-height: 3.5vw;
+		font-weight: 300;
+		column-count: 1;
+		column-rule: 0px choose #000000;
+		-moz-column-count: 1;
+		-moz-column-rule: 0px choose #000000;
+		-webkit-column-count: 1;
+		-webkit-column-rule: 0px choose #000000;
+		-o-column-count: 1;
+		-o-webkit-column-rule: 0px choose #000000;
+		-ms-column-count: 1;
+		-ms-column-rule: 0px choose #000000;
+	}
+
+	.kontakt-text>p {
+		width: 50%;
+		padding-bottom: 1vw;
+		text-align: left;
+		font-size: 1.3vw;
+		line-height: 1.6vw;	
+	}
+
+	/* Unser-Bauernhof Untermenu --------------------------------- */
+
+	.grid figure {
+		padding: 0;
+		width: 100%;
+		padding-bottom: 0vw;
+
+	}
+
+
+	.grid figure h2 {
+		padding-top: 25vw;
+		word-spacing: 0.15vw;
+		font-weight: 600;
+		font-size: 6.5vw;
+
+	}
+
+
+
+	.grid figure h2,
+	.grid figure p {
+		margin: 0;
+	}
+
+	.grid figure .mehr {
+		opacity: 1;
+		letter-spacing: 2px;
+		font-size: 2.5vw;
+		visibility: visible;
+		font-weight: 300;
+	}
+
+	figure.effect-ming img {
+		opacity: 0.6;
+	}
+
+
+
+
+	.beschriftung {
+		display: none;
+	}
+
+	/* Zitat --------------------------------- */
+
+	.zitat {
+		text-align: center;
+		color: #9E9E9E;
+		padding: 1vw;
+		margin-top: 4vw;
+	}
+
+	.zitat h1 {
+		font-weight: 400;
+		font-style: italic;
+		font-size: 3vw;
+		line-height: 3vw;
+
+
+	}
+
+	.zitat h6 {
+		font-weight: 400;
+		font-size: 2vw;
+		line-height: 1.3vw;
+		margin-top: 0vw;
+		padding-top: 1vw;
+	}
+
+
+	/* Über uns Portraits Sektion --------------------------------- */
+
+/*	.abstand-oben {
+		height: 18vw;
+		width: 100%;
+	}
+
+	.portraits-container {
+
+		flex-direction: column;		
+		-webkit-flex-direction: column;	
+	}
+
+	.img-container{
+		flex-direction: column;		
+		-webkit-flex-direction: column;	
+		display: block;
+
+		width: 100%;
+	}
+
+	.angaben-container {
+		flex-direction: column;		
+		-webkit-flex-direction: column;	
+		display: block;
+		margin-top: 4px;
+		width: 100%;
+		height: 50vw;
+	}*/
+
+/*	.angaben-container h2 {
+		font-weight: 600;
+		font-size: 5vw;
+		position:relative; 
+		margin-top: 10%;
+		opacity: 1;
+	}
+
+	.angaben-container p {
+
+		display: block;
+		clear: both;
+		font-size: 3vw;
+		line-height: 0px;
+		position:relative; 
+		margin-top: 1vw;
+		opacity: 1;
+	}*/
+
+.angaben-container h2 {
+	transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-webkit-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	font-weight: 400;
+	font-size: 4.4vw;
+	line-height: 2.8vw;
+	color: #9E9E9E;
+	text-align: center;
+
+	top:5vw;
+
+	position:relative; 
+	width: 100%;
+	transition: all 0.8s ease-in-out;
+	-moz-transition: all 0.8s ease-in-out;
+	-webkit-transition: all 0.8s ease-in-out;
+	-o-transition: all 0.8s ease-in-out;
+	-ms-transition: all 0.8s ease-in-out;
+
+	visibility: visible;
+	opacity: 0;
+}
+
+.angaben-container {
+	width: 50%;
+	display:block;
+}
+
+.angaben-container:nth-child(0) {
+	padding-top: 0vw;
+}
+
+.angaben-container p {
+	transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-webkit-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+
+	top:0vw;
+
+	float: left;
+	text-align: center;
+	font-size: 2.5vw;
+	
+	line-height: 0vw;
+
+	position:relative; 
+
+	width: 100%;
+
+	transition: all 0.8s ease-in-out;
+	-moz-transition: all 0.8s ease-in-out;
+	-webkit-transition: all 0.8s ease-in-out;
+	-o-transition: all 0.8s ease-in-out;
+	-ms-transition: all 0.8s ease-in-out;
+	visibility: visible;
+	opacity: 0;
+}
+
+
+	/* Hoflädeli --------------------------------- */
+
+	.text h3 {
+		padding-top: 3vw; 
+		font-size: 3vw;
+	}
+
+
+	.oeffnungszeiten {
+		padding: 1vw 1vw 3vw;
+	}
+
+	.oeffnungszeiten p {
+		text-align: left;
+		font-size: 2vw;
+		line-height: 7vw;
+
+	}
+
+
+	/* Anfragen -> Events & Hoflaedeli --------------------------------- */
+
+
+	.anfragen {
+		padding: 1vw 1vw 3vw;
+		text-align: center;
+	}
+
+	.anfragen h3 {
+		padding: 3vw 0;
+		font-size: 5.5vw;
+		text-decoration: none;
+	}
+
+	.anfragen a {
+		padding-bottom: 4vw;
+		font-size: 3vw;
+		text-decoration: none;
+	}
+
+	/* Kontakt --------------------------------- */
+
+	.kontakt-submit-info{
+		width: 100%;
+		height: 100%;
+	}
+
+
+
+	.grau-container-kontakt {  
+		position: static;
+		padding: 2vw 0vw 5vw; /*wieso??*/
+		width:100%;
+		height: 100%;
+		background: #EEEEEE;
+	}
+
+
+	.adresse {
+		text-align: left;
+		width: 100%;
+		font-size: 3vw;
+		padding: 0vw 4vw 4vw; /*wieso??*/
+		font-weight: 300;
+
+	}
+
+	.kontakt-text p {
+		width: 100%;
+		padding: 1vw 1vw;
+		text-align: left;
+		font-size: 3vw;
+		line-height: 3.5vw;
+		font-weight: 300;
+		list-style: none;
+		text-decoration:none;
+
+	}
+
+	/* Form --------------------------------- */
+
+/*    .antwort {
+    	padding: 0vw 0vw;
+		width: 80%;
+		font-size: 4vw;
+		line-height: 36px;
+	}*/
+
+.antwort {
+	text-align: center;
+	padding: 1vw 1vw ;
+	margin: 1vw 10vw 2vw;
+	width: 80%;
+
+		font-size: 4vw;
+		line-height: 5vw;
+
+
+}
+
+	.form-style-6{		/*noch unklar ob es hier wirklich eine form braucht*/
+		font-size: 6vw;
+		line-height: 7vw;
+		width: 100%;
+		padding: 3vw 4vw 3vw 4vw;
+		display: none;
+	}
+
+	.form-style-6 input[type="text"],
+	.form-style-6 input[type="date"],
+	.form-style-6 input[type="datetime"],
+	.form-style-6 input[type="email"],
+	.form-style-6 input[type="number"],
+	.form-style-6 input[type="search"],
+	.form-style-6 input[type="time"],
+	.form-style-6 input[type="url"],
+	.form-style-6 textarea,
+	.form-style-6 select {
+		margin-bottom: 2vw;
+		padding: 6vw;
+		position: relative;
+	}
+
+
+
+
+	.form-style-6 input[type="submit"],
+	.form-style-6 input[type="button"]{
+		padding: 6vw;
+		position: relative;
+
+	}
+
+	textarea {
+		height: 40vw;
+	}
+
+
+
+	/*--------- slider --------------- */
+
+
+
+
+
+
+
+
+	.tiere-ueberflex {
+
+		/*	padding: 0 10vw ;*/
+		width: 100%;
+		margin: 0 0vw ;
+
+	}
+
+
+
+
+
+
+
+/*	.tiere-flex img {
+		display: none;
+	}*/
+
+/*	.mask2 {
+		display: none;
+	}*/
+
+	.slider-titel {
+		top: 25%;
+		opacity: 0.7;
+		position: absolute;
+		display: block;
+		color: white;
+		padding: 1vw;
+		margin: 0vw;
+
+		font-size: 4vw;
+		font-weight: 300;
+		border-bottom: 1px solid white;
+		border-left: 1px solid white;
+/*		border-top: 1px solid white;*/
+	}
+
+
+
+
+	.slider {
+		margin: 0 auto;
+		padding: 0 0vw;
+		width: 100%;
+
+	}
+
+	.events-ueberflex {
+		position: static;
+		/*	padding: 0 10vw ;*/
+		width: 100%;
+		margin: 0 0vw ;
+		display: felx;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+	}
+
+	.thumb-events {
+		width: 100%;
+	}
+
+	.slider-titel-events {
+
+		top:45%;
+		text-align: center;
+		font-size: 4vw;
+		position: absolute;
+		display: block;
+		color: white;
+		padding: 1vw;
+		padding-left: 1vw;
+		margin: 0vw;
+		font-weight: 200;
+		line-height: 3vw;
+	}
+
+	.active {
+		display: block;
+	}
+
+	.slick-prev:before,
+	.slick-next:before
+	{
+		top:20%;
+		font-size: 150px;
+
+	}
+
+	.slick-dots
+	{
+		display: none;
+	}
+
+	.aussendiv .abstand-oben {
+		display: none;
+	}
+
+	.slider-beschreibung h1 {
+	padding-left: 3vw;
+	padding-bottom: 1vw;
+	width: 100%;
+	font-weight: 400;
+	font-size: 3vw;
+	line-height: 2.8vw;
+	color: #9E9E9E;
+}
+
+}
