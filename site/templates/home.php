@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 
 
-    <?php snippet('') ?>
+    <?php snippet('home') ?>
 
 
 <?php snippet('footer') ?>
