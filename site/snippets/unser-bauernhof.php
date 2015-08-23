@@ -19,7 +19,7 @@
             <h2>Über Uns</h2>
             <p class="beschriftung">Auf dem Binzenhof leben und arbeiten </br> wir im Einklang mit der Natur.</p>
             <p class="mehr">KLICKEN,</br>UM MEHR ZU ERFAHREN</p>
-            <a href="ueber-uns.html">Mehr erfahren</a>
+            <a href="ueber-uns">Mehr erfahren</a>
           </figcaption>     
         </figure>
         <figure class="effect-ming">
@@ -29,7 +29,7 @@
             <p class="beschriftung">Jedes unserer Tiere soll ein glückliches</br> und schönes Leben haben.</p>
             <p class="mehr">KLICKEN,</br>UM MEHR ZU ERFAHREN</p>
 
-            <a href="unsere-tiere.html">Mehr erfahren</a>
+            <a href="unsere-tiere">Mehr erfahren</a>
           </figcaption>     
         </figure>
       </div>
