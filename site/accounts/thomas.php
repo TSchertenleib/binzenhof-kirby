@@ -7,8 +7,8 @@ password: >
 language: de
 role: admin
 history:
+  - unser-bauernhof
   - hoflaedeli
   - kontakt
   - events
-  - unser-bauernhof
   - home

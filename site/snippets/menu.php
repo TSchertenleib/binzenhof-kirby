@@ -1,23 +1,31 @@
+<div class="navibackground-responsive">
+</div>
 <div class="start-navibackground">
-<nav role="navigation">
-  <ul class="menu cf">
-    <?php foreach($pages->visible() as $p): ?>
-    <li>
-      <a <?php e($p->isOpen(), '') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
+  <nav role="navigation">
+    <ul class="menu cf">
+      <?php foreach($pages->visible() as $p): ?>
+      <li>
+        <a <?php e($p->isOpen(), '') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
 
-      <?php if($p->hasVisibleChildren()): ?>
-      <ul class="submenu">
-        <?php foreach($p->children()->visible() as $p): ?>
-        <li>
-          <a href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
-        </li>
+        <?php if($p->hasVisibleChildren()): ?>
+        <ul class="submenu">
+          <?php foreach($p->children()->visible() as $p): ?>
+          <li>
+            <a href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
+          </li>
         <?php endforeach ?>
       </ul>
-      <?php endif ?>
+    <?php endif ?>
 
-    </li>
-    <?php endforeach ?>
-  </ul>
+  </li>
+<?php endforeach ?>
+</ul>
+
 
 </nav>
 </div>
+
+
+<button class="c-hamburger c-hamburger--htx">
+  <span>toggle menu</span>
+</button>

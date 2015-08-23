@@ -8,7 +8,7 @@
     </div>
 
 
-    <?php snippet('unser-bauernhof') ?>
+    <?php snippet('ueber-uns') ?>
 
   </main>
 

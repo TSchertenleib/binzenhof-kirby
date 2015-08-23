@@ -23,4 +23,5 @@
   <header class="header cf" role="banner">
 
     <?php snippet('menu') ?>
+
   </header>
