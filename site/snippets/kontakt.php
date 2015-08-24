@@ -6,10 +6,10 @@
 
       <div class="text">
         <div class="uebertext-titel">
-          <h1>Kontakt</h1>
+            <h1><?php echo $page->title()->html() ?></h1>
         </div>
         <div class="kontakt-text">
-          <p>Bei Fragen, Bestellungen oder Anfragen für Events können sie mit uns über die unten aufgeführete Telefonnummer telefonieren oder uns eine Nachricht schicken.</p>
+          <p><?php echo $page->kontakt_text()->kirbytext() ?></p>
         </div>
       </div>
 

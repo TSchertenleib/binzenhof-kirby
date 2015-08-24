@@ -4,10 +4,10 @@
       </div>
       <div class="text">
         <div class="uebertext-titel">
-          <h1>Unser Bauernhof</h1>
+          <h1><h1><?php echo $page->title()->html() ?></h1></h1>
         </div>
         <div class="uebertext">
-          <p>Eingebettet in die hügelige Landschaft des Argaus, gerade am Rand von Aarau, liegt unser Bauernhof, der Binzenhof. Neben der Milch- und Mutterkuhhaltung und der Freiberger Pferdezucht wird auch Futter- und Ackerbau auf 60 Hektar Land bewirtschaftet. Durch die sorgfältige Pflege der Landschaft, wie zum Beispiel das Pflanzen von Hecken und Büschen oder das Anlegen von verschiedenen Ökoflächen, entsteht ein ausgewogener, natürlicher Lebensraum für Mensch und Tier.</p>
+         <p> <?php echo $page->text()->kirbytext() ?></p>
         </div>
       </div>
 

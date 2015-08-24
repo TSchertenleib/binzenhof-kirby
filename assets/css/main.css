@@ -85,7 +85,7 @@ header {
 
 #logo{
 	font-family: 'source serif pro';
-	width: 57%;
+	width: 58%;
 	text-align: center;
 	float: left;
 	display:block;
@@ -96,7 +96,7 @@ header {
 
 
 #start-navigation{
-	width: 43%;
+	width: 42%;
 	float:left;
 	display:block;
 }
@@ -1479,7 +1479,7 @@ figure.effect-ming:hover img {
 
 	header {
 		z-index: 5000;
-		top:-10px;
+		top:20px;
 		height: 19vw !important;
 
 		-webkit-transition: top 0.5s ease-in-out;

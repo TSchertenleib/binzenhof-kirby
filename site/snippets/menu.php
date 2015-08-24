@@ -40,7 +40,7 @@
         <nav id="start-navigation">
           <ul class="unterliste2">
             <li><a href="unser-bauernhof">Unser Bauernhof</a></li>
-            <li><a href="events">Events</a></li>         <li><a href="laedeli.html">Hoflädeli</a></li>
+            <li><a href="events">Events</a></li>         <li><a href="hoflaedeli">Hoflädeli</a></li>
             <li><a href="kontakt">Kontakt</a></li> 
           </ul>
         </nav>

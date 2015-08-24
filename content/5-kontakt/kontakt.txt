@@ -2,4 +2,4 @@ Title: Kontakt
 
 ----
 
-Text: 
+Kontakt-text: Bei Fragen, Bestellungen oder Anfragen für Events können sie mit uns über die unten aufgeführete Telefonnummer telefonieren oder uns eine Nachricht schicken.

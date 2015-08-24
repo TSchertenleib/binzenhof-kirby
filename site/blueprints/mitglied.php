@@ -1,18 +1,21 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Hoflädeli
+title: Mitglied
 pages: true
 files: true
 fields:
   title:
     label: Title
     type:  text
-  text:
-    label: Text
+  name:
+    label: Name
     type:  textarea
-  unser_angebot_text:
-    label: Unser Angebot
+  beruf:
+    label: Beruf
     type:  textarea
-  oeffnungszeiten_text:
-    label: Text Öffnungszeiten
+  aufgaben:
+    label: Augfaben
+    type:  textarea
+  freihzeit:
+    label: Freihzeit
     type:  textarea

@@ -1,6 +1,6 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Page
+title: Unsere Tiere
 pages: true
 files: true
 fields:

@@ -1,6 +1,6 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Page
+title: Events
 pages: true
 files: true
 fields:
@@ -9,4 +9,7 @@ fields:
     type:  text
   text:
     label: Text
+    type:  textarea
+  hofchuchi:
+    label: Hofchuchi Text
     type:  textarea

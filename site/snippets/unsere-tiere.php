@@ -4,10 +4,10 @@
 
       <div class="text">
         <div class="uebertext-titel">
-          <h1>Unsere Tiere</h1>
+          <h1><h1><?php echo $page->title()->html() ?></h1></h1>
         </div>
         <div class="uebertext">
-          <p>Wir haben ca. 18 Angus-Mutterkühe mit Kälbern und einen Stier. Für diese Rasse haben wir uns entschieden, weil sie unter anderem genetisch hornlos und sehr genügsam ist. Dazu kommen ca. 12 Mutterschafe, 2 Schweine, verschiedene Hühner, Hasen, ein Hund und eine Katze. Die Mutterkühe und Schafe sind von Mai bis November auf der Weide. Im Winter sind sie im Freilaufstall.</p>
+          <p> <?php echo $page->text()->kirbytext() ?></p>
         </div>
       </div>
 

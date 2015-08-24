@@ -2,10 +2,10 @@
       <img class="ueberbild" src="assets/media/images/ueberbild_events.png" alt="Events">
       <div class="text">
         <div class="uebertext-titel">
-          <h1>Hochzeit und Brunch</h1>
+          <h1><?php echo $page->title()->html() ?></h1>
         </div>
         <div class="uebertext">
-          <p>Der zum Eventraum umgebaute ehemalige Kuhstall bietet  bis zu 100 Personen Platz, unter freiem Himmel dürfen's aber auch noch ein paar mehr sein – so strömen beispielsweise zum legendären 1.August-Brunch jeweils um die 600 Menschen auf den Hof. Durch unseren vielseitigen Betrieb, auf welchem alles Angeschaut werden kann und auf Wunsch auch eine Führung gebucht werden kann. Dank der romantischen Atmosphäre ist der Binzenhof auch eine wichtige Adresse für Hochzeiten. Ob Hochzeit oder Brunch, Ihr Anlass wird sicherlich zu einem unvergesslichen Erlebnis.</p>
+          <p><?php echo $page->text()->kirbytext() ?></p>
         </div>
       </div>
       <div class="grau-container">
@@ -110,7 +110,7 @@
 
       <div class="text">
         <div class="uebertext">
-          <p>In unserer Hofküche verwenden wir vorwiegend hofeigene Produkte. Uns liegt die Frische und erstklassige Qualität am Herzen. Natürlich legen wir auch grossen Wert auf Saisonalität und Regionalität, sowie eine schonenden und nachhaltige Produktion. Nach Wunsch wird Ihnen und Ihren Gästen ein Essen mit Spezialitäten von unserem Betrieb oder zum Beispiel ein Buurezmorge in gemütlicher Atmosphäre serviert. </p>
+          <p><?php echo $page->hofchuchi()->kirbytext() ?></p>
         </div>
       </div>
     </section> 

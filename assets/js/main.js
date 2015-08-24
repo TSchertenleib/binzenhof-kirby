@@ -154,7 +154,6 @@ $('.button').click(function() {
             this.classList.add("is-active");
             $('.unterliste2').css("display", "block");
             $('.unterliste2').animate({ opacity: 1 }, 1);
-
           }
 
         });
