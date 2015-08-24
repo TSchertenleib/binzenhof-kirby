@@ -17,33 +17,38 @@
     <div class="portraits">
       <div class="portraits-container">
         <div class="img-container"> 
-          <img src="assets/media/images/portrait_mann.png" alt="Peter Knörr">
-        </div> 
-        <div class="angaben-container">
-          <h2 class="name"><?php echo html($child->name())?></h2></br>
-          <p class="angaben"><strong>Beruf: </strong><?php echo html($child->beruf()) ?></p></br> 
-          <p class="angaben"><strong>Aufgaben: </strong><?php echo html($child->aufgaben()) ?></p></br> 
-          <p class="angaben"><strong>Freihzeit: </strong><?php echo html($child->freihzeit()) ?></p>
-        </div>
-      </div>
-      <?php } ?>
+          <?php foreach($child->images() as $image): ?>
+          <img src="<?php echo $image->url() ?>" alt="">
+        <?php endforeach ?> 
+      </div> 
 
-
-      <?php if ($counter % 2 == 0) { ?> 
-      <div class="portraits-container">
-        <div class="angaben-container">
-          <h2 class="name"><?php echo html($child->name())?></h2></br>
-          <p class="angaben"><strong>Beruf: </strong><?php echo html($child->beruf()) ?></p></br> 
-          <p class="angaben"><strong>Aufgaben: </strong><?php echo html($child->aufgaben()) ?></p></br> 
-          <p class="angaben"><strong>Freihzeit: </strong><?php echo html($child->freihzeit()) ?></p>
-        </div>
-        <div class="img-container"> 
-          <img src="assets/media/images/portrait_frau.png" alt="Suesanne Knörr">
-        </div> 
+      <div class="angaben-container">
+        <h2 class="name"><?php echo html($child->name())?></h2></br>
+        <p class="angaben"><strong>Beruf: </strong><?php echo html($child->beruf()) ?></p></br> 
+        <p class="angaben"><strong>Aufgaben: </strong><?php echo html($child->aufgaben()) ?></p></br> 
+        <p class="angaben"><strong>Freihzeit: </strong><?php echo html($child->freihzeit()) ?></p>
       </div>
     </div>
     <?php } ?>
-  <?php endforeach ?>
+
+
+    <?php if ($counter % 2 == 0) { ?> 
+    <div class="portraits-container">
+      <div class="angaben-container">
+        <h2 class="name"><?php echo html($child->name())?></h2></br>
+        <p class="angaben"><strong>Beruf: </strong><?php echo html($child->beruf()) ?></p></br> 
+        <p class="angaben"><strong>Aufgaben: </strong><?php echo html($child->aufgaben()) ?></p></br> 
+        <p class="angaben"><strong>Freihzeit: </strong><?php echo html($child->freihzeit()) ?></p>
+      </div>
+      <div class="img-container"> 
+          <?php foreach($child->images() as $image): ?>
+          <img src="<?php echo $image->url() ?>" alt="">
+        <?php endforeach ?> 
+      </div> 
+    </div>
+  </div>
+  <?php } ?>
+<?php endforeach ?>
 
 </section>
 

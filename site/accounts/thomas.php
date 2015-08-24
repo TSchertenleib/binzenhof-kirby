@@ -7,8 +7,7 @@ password: >
 language: de
 role: admin
 history:
-  - ueber-uns/peter-knoerr
+  - ueber-uns/hans
+  - ueber-uns/gretel-knoerr
   - ueber-uns/susanne-knoerr
-  - ueber-uns/mitglied
-  - ueber-uns/kurt
-  - ueber-uns
+  - ueber-uns/peter-knoerr
