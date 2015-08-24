@@ -7,7 +7,8 @@ password: >
 language: de
 role: admin
 history:
-  - ueber-uns/hans
-  - ueber-uns/gretel-knoerr
-  - ueber-uns/susanne-knoerr
-  - ueber-uns/peter-knoerr
+  - unsere-tiere/ziegen
+  - unsere-tiere/schweine
+  - unsere-tiere/pferde
+  - unsere-tiere/meerschweinchen
+  - unsere-tiere/katzen
