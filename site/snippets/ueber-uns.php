@@ -21,9 +21,9 @@
         </div> 
         <div class="angaben-container">
           <h2 class="name"><?php echo html($child->name())?></h2></br>
-          <p class="angaben"><?php echo html($child->beruf()) ?></p></br> 
-          <p class="angaben"><?php echo html($child->aufgaben()) ?></p></br> 
-          <p class="angaben"><?php echo html($child->freihzeit()) ?></p>
+          <p class="angaben"><strong>Beruf: </strong><?php echo html($child->beruf()) ?></p></br> 
+          <p class="angaben"><strong>Aufgaben: </strong><?php echo html($child->aufgaben()) ?></p></br> 
+          <p class="angaben"><strong>Freihzeit: </strong><?php echo html($child->freihzeit()) ?></p>
         </div>
       </div>
       <?php } ?>
@@ -33,9 +33,9 @@
       <div class="portraits-container">
         <div class="angaben-container">
           <h2 class="name"><?php echo html($child->name())?></h2></br>
-          <p class="angaben"><?php echo html($child->beruf()) ?></p></br> 
-          <p class="angaben"><?php echo html($child->aufgaben()) ?></p></br> 
-          <p class="angaben"><?php echo html($child->freihzeit()) ?></p>
+          <p class="angaben"><strong>Beruf: </strong><?php echo html($child->beruf()) ?></p></br> 
+          <p class="angaben"><strong>Aufgaben: </strong><?php echo html($child->aufgaben()) ?></p></br> 
+          <p class="angaben"><strong>Freihzeit: </strong><?php echo html($child->freihzeit()) ?></p>
         </div>
         <div class="img-container"> 
           <img src="assets/media/images/portrait_frau.png" alt="Suesanne Knörr">
