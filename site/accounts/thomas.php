@@ -7,8 +7,8 @@ password: >
 language: de
 role: admin
 history:
+  - unsere-tiere
   - unsere-tiere/ziegen
   - unsere-tiere/schweine
   - unsere-tiere/pferde
   - unsere-tiere/meerschweinchen
-  - unsere-tiere/katzen

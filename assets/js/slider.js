@@ -16,7 +16,7 @@ $(document).ready(function ()   {
 
 
     $this.on("click", function() {
-        $(window).trigger("resize");
+        // $(window).trigger("resize");
         // $(window).resize();    
         $siteSlider.removeClass("is-active");
         // $(window).trigger("resize");
@@ -39,7 +39,7 @@ $sliderTitleEvents.each(function() {
 
   $this.on("click", function() {
     // $(window).trigger("resize");
-    $(window).resize();    
+    // $(window).resize();    
     $siteSlider.removeClass("is-active");
     // $(window).trigger("resize");
     $targetEl.addClass("is-active");
@@ -81,10 +81,10 @@ $('.site-slider').slick({
 
 
 $('.tiere-ueberflex').slick({
-  slidesToShow: 6,
+  slidesToShow: 5,
   slidesToScroll: 1,
   dots: true,
-  centerMode: true,
+  centerMode: false,
   focusOnSelect: true,
   arrows: false,
   asNavFor: '.site-slider',
