@@ -15,22 +15,14 @@
 
 
       <div class="slider">
-
         <div class="grau-container-kontakt">
-
           <div class="form-style-6">
 
-            <form method="post" name="contactform" action="kontakt-form-handler.php">
-            <!--  <label for='name'></label> -->
-              <input type="text" name="name" placeholder="Dein Name" />
-            <!--  <label for='email'></label> -->
-              <input type="text" name="email" placeholder="Deine Email Addresse" />
-            <!--  <label for='message'></label>  -->
-              <textarea name="message" placeholder="Schreibe uns eine Nachricht ..."></textarea>
-              <input type="submit" value="Submit" />
-            </form>
+            <?php snippet('contactform') ?>
 
           </div>
+
+
           <div class="adresse">
           <p>
             <strong>Adresse:</strong></br>
