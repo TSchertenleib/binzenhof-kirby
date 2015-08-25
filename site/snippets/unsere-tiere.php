@@ -13,43 +13,40 @@
 
       <div class="grau-container">
         <div class="slider-container">  
+
           <div class="slider">
+
             <div class="site-slider is-active" id="kuehe">
 
-              <div><img src="assets/media/tiere-slider/kuehe/kuehe.jpg"/>
-              </div>
-              <div><img src="assets/media/tiere-slider/kuehe/kuehe2.jpg"/></div>
-              <div><img src="assets/media/tiere-slider/kuehe/kuehe3.jpg"/></div>
-              <div><img src="assets/media/tiere-slider/kuehe/kuehe4.jpg"/></div>
+              <?php foreach($page->find('kuehe')->images() as $image) : ?>
+              <div><img src="<?php echo $image->url('') ?>" alt=""></div>
+              <?php endforeach; ?>
+    
             </div>
 
             <div class="site-slider" id="pferde">
-              <div><img src="assets/media/tiere-slider/pferde/pferde.jpg"/>
-              </div>
-              <div><img src="assets/media/tiere-slider/pferde/pferde2.jpg"/></div>
-              <div><img src="assets/media/tiere-slider/pferde/pferde3.jpg"/></div>
+              <?php foreach($page->find('pferde')->images() as $image) : ?>
+              <div><img src="<?php echo $image->url('') ?>" alt=""></div>
+              <?php endforeach; ?> 
             </div>
 
             <div class="site-slider" id="ziege">
-              <div><img src="assets/media/tiere-slider/ziege/ziege.jpg"/>
-              </div>
-              <div><img src="assets/media/tiere-slider/ziege/ziege2.jpg"/></div>
-
+              <?php foreach($page->find('ziegen')->images() as $image) : ?>
+              <div><img src="<?php echo $image->url('') ?>" alt=""></div>
+              <?php endforeach; ?> 
             </div>      
 
             <div class="site-slider" id="huehner">
-              <div><img src="assets/media/tiere-slider/huehner/huehner.jpg"/>
-              </div>
-              <div><img src="assets/media/tiere-slider/huehner/huehner2.jpg"/></div>
-
+              <?php foreach($page->find('huehner')->images() as $image) : ?>
+              <div><img src="<?php echo $image->url('') ?>" alt=""></div>
+              <?php endforeach; ?> 
             </div>  
 
             <div class="site-slider" id="haustiere">
-              <div><img src="assets/media/tiere-slider/haustiere/hund.jpg"/>
-              </div>
-              <div><img src="assets/media/tiere-slider/haustiere/hund2.jpg"/></div>
-
-            </div>         
+              <?php foreach($page->find('haustiere')->images() as $image) : ?>
+              <div><img src="<?php echo $image->url('') ?>" alt=""></div>
+              <?php endforeach; ?> 
+            </div>   
           </div>
 
 

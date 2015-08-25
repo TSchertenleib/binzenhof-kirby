@@ -19,10 +19,9 @@
 
           <div class="slider-container">  
               <div class="site-slider is-active">
-                <div><img src="assets/media/laedeli/laedeli.jpg"/>
-                </div>
-                <div><img src="assets/media/laedeli/laedeli2.jpg"/></div>
-                <div><img src="assets/media/laedeli/laedeli3.jpg"/></div>
+              <?php foreach($page->images() as $image) : ?>
+              <div><img src="<?php echo $image->url('') ?>" alt=""></div>
+              <?php endforeach; ?>
               </div>
           </div>    
 

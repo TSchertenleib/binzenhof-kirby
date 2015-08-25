@@ -11,47 +11,46 @@
       <div class="grau-container">
         <div class="slider-container">  
           <div class="slider">
+
             <div class="site-slider is-active" id="august-brunch">
-              <div><img src="assets/media/events-slider/august/august.jpg"/>
-              </div>
-              <div><img src="assets/media/events-slider/august/august2.jpg"/></div>
-              <div><img src="assets/media/events-slider/august/august3.jpg"/></div>
-      
+              <?php foreach($page->find('august-brunch')->images() as $image) : ?>
+              <div><img src="<?php echo $image->url('') ?>" alt=""></div>
+              <?php endforeach; ?>
             </div>
 
             <div class="site-slider" id="buure-brunch">
-              <div><img src="assets/media/events-slider/brunch/brunch.jpg"/>
-              </div>
-              <div><img src="assets/media/events-slider/brunch/brunch2.jpg"/></div>
-              <div><img src="assets/media/events-slider/brunch/brunch3.jpg"/></div>
+              <?php foreach($page->find('buure-brunch')->images() as $image) : ?>
+              <div><img src="<?php echo $image->url('') ?>" alt=""></div>
+              <?php endforeach; ?>
             </div>    
-            <div class="site-slider" id="vom-grill">
-              <div><img src="assets/media/events-slider/vom-grill/grill.jpg"/>
-              </div>
-              <div><img src="assets/media/events-slider/vom-grill/grill2.jpg"/></div>
-              <div><img src="assets/media/events-slider/vom-grill/grill3.jpg"/></div>
 
+            <div class="site-slider" id="vom-grill">
+              <?php foreach($page->find('vom-grill')->images() as $image) : ?>
+              <div><img src="<?php echo $image->url('') ?>" alt=""></div>
+              <?php endforeach; ?>
             </div>
 
             <div class="site-slider" id="hochzeiten">
-              <div><img src="assets/media/events-slider/hochzeit/hochzeit.jpg"/>
-              </div>
-              <div><img src="assets/media/events-slider/hochzeit/hochzeit2.jpg"/></div>
-              <div><img src="assets/media/events-slider/hochzeit/hochzeit3.jpg"/></div>
+              <?php foreach($page->find('hochzeiten')->images() as $image) : ?>
+              <div><img src="<?php echo $image->url('') ?>" alt=""></div>
+              <?php endforeach; ?>
             </div>
+
             <div class="site-slider" id="geburtstag">
-              <div><img src="assets/media/events-slider/geburtstag/geburtstag.jpg"/>
-              </div>
-              <div><img src="assets/media/events-slider/geburtstag/geburtstag2.jpg"/></div>
-              <div><img src="assets/media/events-slider/geburtstag/geburtstag3.jpg"/></div>
+              <?php foreach($page->find('geburtstage')->images() as $image) : ?>
+              <div><img src="<?php echo $image->url('') ?>" alt=""></div>
+              <?php endforeach; ?>
             </div>  
+
             <div class="site-slider" id="taufe">
-              <div><img src="assets/media/events-slider/taufe/taufe.jpg"/>
-              </div>
-              <div><img src="assets/media/events-slider/taufe/taufe2.jpg"/></div>
-              <div><img src="assets/media/events-slider/taufe/taufe3.jpg"/></div>
+              <?php foreach($page->find('taufe')->images() as $image) : ?>
+              <div><img src="<?php echo $image->url('') ?>" alt=""></div>
+              <?php endforeach; ?>
             </div>    
           </div>
+
+
+
           <div class="events-container">
             <div class="events-ueberflex">
               <div class="tiere-flex effect2">  
