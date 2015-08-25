@@ -100,12 +100,10 @@ $('.button').hover(function() {
   $('.inhalt').addClass('start-effect');
   $('.bgimage').addClass('img-zoom');
   $('.uebertitel').stop(true, false).fadeIn('slow');
-  $('.unterliste2').css("display", "none");
 }, function() {
   $('.inhalt').removeClass('start-effect');
   $('.bgimage').removeClass('img-zoom');
   $('.uebertitel').stop(true, false).fadeOut('fast');
-
 });
 
 
@@ -177,6 +175,11 @@ function initialize() {
   var mapCanvas = document.getElementById('map-canvas');
   var mapOptions = {
     center: new google.maps.LatLng(47.378237, 8.0470636),
+    scrollwheel: false,
+    navigationControl: false,
+    mapTypeControl: false,
+    scaleControl: false,
+    draggable: false,
     zoom: 18,
     mapTypeId: google.maps.MapTypeId.ROADMAP 
           //ROADMAP HYBRID TERRAIN SATELLITE
