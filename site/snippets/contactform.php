@@ -30,17 +30,17 @@ $form = new contactform(array(
   
       <div class="contactform-field<?php if($form->isError('name')) echo ' error' ?>">
         <label class="contactform-label" for="contactform-name"><?php if($form->isRequired('name')) ?> <?php if($form->isError('name')): ?><small>Bitte den Namen angeben</small><?php endif ?></label>
-        <input class="contactform-input" type="text" id="contactform-name" name="name" value="<?php echo $form->htmlValue('name') ?>" />
+        <input class="contactform-input" type="text" id="contactform-name" name="name"  placeholder="Dein Name" value="<?php echo $form->htmlValue('name') ?>" />
       </div>
   
       <div class="contactform-field<?php if($form->isError('email')) echo ' error' ?>">
         <label class="contactform-label" for="contactform-email"><?php if($form->isRequired('email')) ?> <?php if($form->isError('email')): ?><small>Bitte eine richtige Email angeben</small><?php endif ?></label>
-        <input class="contactform-input" type="text" id="contactform-email" name="email" value="<?php echo $form->htmlValue('email') ?>" />
+        <input class="contactform-input" type="text" id="contactform-email" name="email" placeholder="Deine Email Addresse" value="<?php echo $form->htmlValue('email') ?>" />
       </div>
   
       <div class="contactform-field<?php if($form->isError('text')) echo ' error' ?>">
         <label class="contactform-label" for="contactform-text"><?php if($form->isRequired('text'))?> <?php if($form->isError('text')): ?><small>Bitte Text eingeben</small><?php endif ?></label>
-        <textarea class="contactform-input" name="text" id="contactform-text"><?php echo $form->htmlValue('text') ?></textarea>
+        <textarea class="contactform-input" name="text" placeholder="Schreibe uns eine Nachricht ..." id="contactform-text"><?php echo $form->htmlValue('text') ?></textarea>
       </div>
       
         
