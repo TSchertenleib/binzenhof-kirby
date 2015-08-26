@@ -9,16 +9,20 @@
   <meta name="description" content="<?php echo $site->description()->html() ?>">
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
 
+<!--   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css"> -->
   <link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>  
+
 
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,600italic,400italic' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Exo:100' rel='stylesheet' type='text/css'>
 
-  <?php echo css('assets/css/main.css') ?>
   <?php echo css('assets/css/normalize.css') ?>
-
+  <?php echo css('assets/css/main.css') ?>
+  <?php echo css('assets/css/buttons-core.css') ?>
+  <?php echo css('assets/css/buttons.css') ?>
+  <?php echo css('assets/css/uniform.css') ?>
 
   <header class="header cf" role="banner">
 

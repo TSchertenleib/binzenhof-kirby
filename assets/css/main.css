@@ -1419,6 +1419,7 @@ figure.effect-ming:hover img {
 		margin: .2vw 2vw;
 	}
 
+/*	.form-style-6 .pure-button .pure-button-primaryn[type="submit"],*/
 	.form-style-6 input[type="text"],
 	.form-style-6 input[type="date"],
 	.form-style-6 input[type="datetime"],
@@ -1433,6 +1434,14 @@ figure.effect-ming:hover img {
 		padding: .7vw;
 	}
 
+	.pure-button-primary, 
+	.pure-button-selected, 
+	a.pure-button-primary, 
+	a.pure-button-selected {
+		width: 12vw !important; 
+	}
+
+/*	.form-style-6 .pure-button .pure-button-primaryn[type="submit"]:focus,*/
 	.form-style-6 input[type="text"]:focus,
 	.form-style-6 input[type="date"]:focus,
 	.form-style-6 input[type="datetime"]:focus,
