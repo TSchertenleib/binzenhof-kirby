@@ -16,11 +16,11 @@
 
       <div class="slider">
         <div class="grau-container-kontakt">
-          <div class="form-style-6">
+
 
             <?php snippet('contactform') ?>
 
-          </div>
+
 
 
           <div class="adresse">
