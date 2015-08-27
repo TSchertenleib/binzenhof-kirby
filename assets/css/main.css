@@ -1805,12 +1805,12 @@ figure.effect-ming:hover img {
 		-ms-column-rule: 0px choose #000000;
 	}
 
-	.kontakt-text>p {
+	.kontakt-text p {
 		width: 50%;
 		padding-bottom: 1vw;
 		text-align: left;
-		font-size: 1.3vw;
-		line-height: 1.6vw;	
+		font-size: 6vw;
+		line-height: 7vw;	
 	}
 
 	/* Unser-Bauernhof Untermenu --------------------------------- */
@@ -2537,7 +2537,7 @@ figure.effect-ming:hover img {
 		padding: 1vw 1vw;
 		text-align: left;
 		font-size: 6vw;
-		line-height: 6.5vw;
+		line-height: 7vw;
 		font-weight: 300;
 		column-count: 1;
 		column-rule: 0px choose #000000;
@@ -2555,8 +2555,8 @@ figure.effect-ming:hover img {
 		width: 50%;
 		padding-bottom: 1vw;
 		text-align: left;
-		font-size: 1.3vw;
-		line-height: 1.6vw;	
+		font-size: 6vw;
+		line-height: 7vw;	
 	}
 
 	/* Unser-Bauernhof Untermenu --------------------------------- */
@@ -2804,7 +2804,7 @@ figure.effect-ming:hover img {
 	.adresse {
 		text-align: left;
 		width: 100%;
-		font-size: 3vw;
+		font-size: 6vw;
 		padding: 0vw 4vw 4vw; /*wieso??*/
 		font-weight: 300;
 
@@ -2814,14 +2814,18 @@ figure.effect-ming:hover img {
 		width: 100%;
 		padding: 1vw 1vw;
 		text-align: left;
-		font-size: 3vw;
-		line-height: 3.5vw;
+		font-size: 6vw;
+		line-height: 7vw;
 		font-weight: 300;
 		list-style: none;
 		text-decoration:none;
 
 	}
 
+	.mail {
+		font-size: 12vw;
+		font-weight: 300;
+	}
 	/* Form --------------------------------- */
 
 /*    .antwort {
