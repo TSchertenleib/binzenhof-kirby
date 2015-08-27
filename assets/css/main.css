@@ -1532,7 +1532,7 @@ figure.effect-ming:hover img {
 		padding-top:50%;
 
 		width:100% !important;
-		height: 100% !important;
+		height: 120% !important;
 
 		list-style: none;
 		position: fixed;
@@ -2272,9 +2272,9 @@ figure.effect-ming:hover img {
 		font-weight: 600;
 		opacity: 0;
 		background: rgba(30,30,30,0.85);
-		padding-top:50%;
+		padding-top:40%;
 		width:100% !important;
-		height: 100% !important;
+		height: 120% !important;
 		list-style: none;
 		position: fixed;
 		text-align: center;	
@@ -2286,7 +2286,7 @@ figure.effect-ming:hover img {
 	.unterliste2 li {
 		text-align: center !important;
 		width: 100% !important;
-		margin: 2vw 0;
+		margin: 5vw 0;
 		padding: auto 0;
 	}
 
@@ -2298,6 +2298,7 @@ figure.effect-ming:hover img {
 
 	.unterliste1	{
 		padding-top: 3vw;
+		margin-left: 6vw;
 		z-index: 100;
 	}
 
@@ -2308,7 +2309,7 @@ figure.effect-ming:hover img {
 		width: 100%;
 		text-decoration:none;
 		color: white;
-		font-size: 3.5vw;
+		font-size: 6vw;
 	}
 
 
@@ -2347,12 +2348,12 @@ figure.effect-ming:hover img {
 
 	.c-hamburger {
 		clear: both;
-		right: 6vw;
+		right: 4vw;
 		float: right;
 		display: block;
 		position: fixed;
 		overflow: hidden;
-		margin: 0;
+		margin-top: 1.5vw;
 		padding: 0;
 		width: 8%;
 		height: 10%;
@@ -2377,7 +2378,7 @@ figure.effect-ming:hover img {
 	.c-hamburger span {
 		display: block;
 		position: absolute;
-		top: 6vw;
+		top: 6.5vw;
 
 		width: 100%;
 		height: 0.4vw;
@@ -2526,7 +2527,7 @@ figure.effect-ming:hover img {
 		padding-bottom: 1vw;
 
 		font-weight: 600;
-		font-size: 4vw;
+		font-size: 8vw;
 		line-height: 2vw;
 		color: #9E9E9E;
 	}
@@ -2535,8 +2536,8 @@ figure.effect-ming:hover img {
 		width: 100%;
 		padding: 1vw 1vw;
 		text-align: left;
-		font-size: 3vw;
-		line-height: 3.5vw;
+		font-size: 6vw;
+		line-height: 6.5vw;
 		font-weight: 300;
 		column-count: 1;
 		column-rule: 0px choose #000000;
