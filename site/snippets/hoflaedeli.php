@@ -18,7 +18,7 @@
           </div>
 
           <div class="slider-container">  
-              <div class="site-slider is-active">
+              <div class="site-slider-laedeli is-active">
               <?php foreach($page->images() as $image) : ?>
               <div><img src="<?php echo $image->url('') ?>" alt=""></div>
               <?php endforeach; ?>

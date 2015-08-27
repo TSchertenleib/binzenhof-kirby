@@ -3,7 +3,7 @@
 username: thomas
 email: thomas.schertenleib@gmail.com
 password: >
-  $2a$10$Lve1S/pUrSl.D.b7BgCOmerFGEH2XFT7hB94XuuOBbv0PpWiSTnVq
+  $2a$10$J3zqAqUw0INUZYnlrUBJsulJR6vBVKbHsbpcWN3SsTCmzgPuHPMAu
 language: de
 role: admin
 history:
@@ -12,3 +12,5 @@ history:
   - events/hochzeiten
   - events/geburtstage
   - events/buure-brunch
+firstname:
+lastname:

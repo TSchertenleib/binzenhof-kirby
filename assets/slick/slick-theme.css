@@ -258,13 +258,13 @@
 .slick-dots li button:before
 {
     font-family: 'slick';
-    font-size: 24px;
+    font-size: 12px;
     line-height: 20px;
 
 
 
     position: absolute;
-    top: 32px;
+    top: 10px;
     left: 0;
 
     width: 20px;
@@ -289,25 +289,42 @@
 .slick-prev:before,
 .slick-next:before
 {
-
-    top:20%;
+    top:60% !important;
     font-size: 150px;
+    line-height: 0px;
+
+    display: none !important;
 }
+
+
 
 .slick-dots
 {
-    display: none !important;
+/*    display: none;*/
 }
-.slick-prev,
-.slick-next
+.slick-dots li button:before
 {
-    top: 15%;
-    padding-top: 18%;
+    font-family: 'slick';
+    font-size: 12px;
+    line-height: 20px;
 
+
+
+    position: relative;
+    top: 10px;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-
-
-
 }
-

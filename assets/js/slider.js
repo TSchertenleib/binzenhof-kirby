@@ -74,11 +74,40 @@ $('.site-slider-bauernhof').slick({
   dots: true,
   infinite: true,
   speed: 300,
-  slidesToShow: 2,
-  slidesToScroll: 2,
+  slidesToShow: 1,
+  slidesToScroll: 1,
   arrows: true        
 });
 
+
+$('.site-slider-laedeli').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: true,
+      responsive: [
+   {
+      breakpoint: 1400,
+      settings: {
+        dots: true
+      }
+    },
+    {
+      breakpoint: 1000,
+      settings: {
+        dots: true
+      }
+    },
+    {
+      breakpoint: 667,
+      settings: {
+        dots: true
+      }
+    }
+  ]        
+});
 
     // $('.next-button-slick').click(function(){
     //   $('.site-slider').slickNext();
