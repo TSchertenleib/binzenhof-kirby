@@ -10,8 +10,9 @@ var breite = $(window).height();
 
 var halbeBreite = $(window).width()/2;
 
+var breite = $(window).width();
 
-
+console.log(breite);
 
 // hide header functions
 $(window).scroll(function(event){

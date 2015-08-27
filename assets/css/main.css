@@ -1090,6 +1090,7 @@ figure.effect-ming:hover img {
 .slider {
     padding: 0 0vw 0 10vw;
     width: 90%;
+    min-height: 44.0vw;
 }
 
 .active {
@@ -2193,8 +2194,8 @@ figure.effect-ming:hover img {
 		width: 100%;
 		display:-ms-flex;
 		position: relative;
+    	min-height: 56.1vw;
 	}
-
 
 
 
@@ -2632,52 +2633,7 @@ figure.effect-ming:hover img {
 
 	/* Über uns Portraits Sektion --------------------------------- */
 
-/*	.abstand-oben {
-		height: 18vw;
-		width: 100%;
-	}
 
-	.portraits-container {
-
-		flex-direction: column;		
-		-webkit-flex-direction: column;	
-	}
-
-	.img-container{
-		flex-direction: column;		
-		-webkit-flex-direction: column;	
-		display: block;
-
-		width: 100%;
-	}
-
-	.angaben-container {
-		flex-direction: column;		
-		-webkit-flex-direction: column;	
-		display: block;
-		margin-top: 4px;
-		width: 100%;
-		height: 50vw;
-	}*/
-
-/*	.angaben-container h2 {
-		font-weight: 600;
-		font-size: 5vw;
-		position:relative; 
-		margin-top: 10%;
-		opacity: 1;
-	}
-
-	.angaben-container p {
-
-		display: block;
-		clear: both;
-		font-size: 3vw;
-		line-height: 0px;
-		position:relative; 
-		margin-top: 1vw;
-		opacity: 1;
-	}*/
 
 .angaben-container h2 {
 	transform: translate3d(0,0,0);
@@ -2906,18 +2862,6 @@ figure.effect-ming:hover img {
 
 
 
-
-
-
-
-/*	.tiere-flex img {
-		display: none;
-	}*/
-
-/*	.mask2 {
-		display: none;
-	}*/
-
 	.slider-titel {
 		top: 25%;
 		opacity: 0.7;
@@ -2941,7 +2885,7 @@ figure.effect-ming:hover img {
 		margin: 0 auto;
 		padding: 0 0vw;
 		width: 100%;
-
+    	min-height: 55.1vw;
 	}
 
 	.events-ueberflex {
@@ -3007,4 +2951,99 @@ figure.effect-ming:hover img {
 	color: #9E9E9E;
 }
 
+}
+
+
+
+
+
+
+/*@media only screen and (min-width: 667px)  {
+
+
+
+.slider {
+    padding: 0 0vw 0 10vw;
+    width: 90%;
+    max-height: 20	vw;
+    min-height: 40.0vw;
+}
+
+}
+*/
+
+
+@media only screen and (min-width: 1400px)  {
+
+
+
+.slider {
+    padding: 0 0vw 0 10vw;
+    width: 90%;
+    min-height: 45.0vw;
+}
+
+
+
+}
+
+@media only screen and (min-width: 1200px)  {
+
+
+.slider {
+    padding: 0 0vw 0 10vw;
+    width: 90%;
+    min-height: 44.549vw;
+}
+
+
+}
+
+@media only screen and (min-width: 1000px)  {
+
+
+.slider {
+    padding: 0 0vw 0 10vw;
+    width: 90%;
+    min-height: 44.29vw;
+}
+
+
+}
+
+
+@media only screen and (max-width: 680px)  {
+
+
+.slider {
+
+    min-height: 44.89vw;
+}
+
+
+}
+
+
+
+
+/*@media only screen and (max-width: 553px)  {
+	.slider {
+
+    	min-height: 44.4vw;
+	}
+}
+*/
+
+@media only screen and (max-width: 465px)  {
+	.slider {
+
+    	min-height: 59.1vw;
+	}
+}
+
+@media only screen and (max-width: 465px)  {
+	.slider {
+
+    	min-height: 53.5vw;
+	}
 }
