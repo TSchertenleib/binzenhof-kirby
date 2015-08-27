@@ -118,5 +118,10 @@
     <div class="anfragen">
       <h3>FÜR INFOS, UNVERBINDLICHE ANFRAGEN ODER RESERVATIONENE
 </h3>
-      <a class="mail" href="mailto:thomas.schertenleib@gmail.com?Subject=Binzenhof" target="_top">info@binzenhof.ch</a>
+      <a class="mail" href="mailto:thomas.schertenleib@gmail.com?Subject=   <div class="anfragen">
+      <h3>FÜR INFOS ODER BESTELLUNGEN
+      </h3>
+      <a href="mailto:thomas.schertenleib@gmail.com?Subject=Neue Anfrage von Binzenhof.ch" target="_top">info@binzenhof.ch</a>
+    </div>
+" target="_top">info@binzenhof.ch</a>
     </div>

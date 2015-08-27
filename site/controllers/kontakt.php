@@ -14,6 +14,7 @@ return function($site, $pages, $page) {
                // The sender of the email should be an email address 
                // belonging to the server that hosts your website, since 
                // it is the one dispatching the email.
+               'subject' => 'Neue Anfrage von Binzenhof.ch'
             )
          )
       )
@@ -21,3 +22,4 @@ return function($site, $pages, $page) {
 
    return compact('form');
 };
+

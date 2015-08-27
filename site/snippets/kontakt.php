@@ -66,7 +66,7 @@
             062/ 823 17 28</br></br>
 
             <strong>Mail:</strong></br>
-             <a class="mail" href="mailto:thomas.schertenleib@gmail.com?Subject=Binzenhof" target="_top">info@binzenhof.ch</a>
+             <a class="mail" href="mailto:thomas.schertenleib@gmail.com?Subject=Neue Anfrage von Binzenhof.ch" target="_top">info@binzenhof.ch</a>
           </p>
           </div>
         </div>
