@@ -46,7 +46,7 @@
           <div class="slider-container">  
             <div class="grau-container">
               <div class="slider">
-                <div class="site-slider is-active">
+                <div class="site-slider-bauernhof is-active">
                   <div><img src="assets/media/unser-hof/1.jpg"/>
                   </div>
                   <div><img src="assets/media/unser-hof/2.jpg"/></div>

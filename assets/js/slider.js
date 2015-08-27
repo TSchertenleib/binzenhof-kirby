@@ -70,6 +70,15 @@ $('.site-slider').slick({
 
 
 
+$('.site-slider-bauernhof').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 2,
+  slidesToScroll: 2,
+  arrows: true        
+});
+
 
     // $('.next-button-slick').click(function(){
     //   $('.site-slider').slickNext();
